@@ -3,3 +3,40 @@ __pycache__/
 data/
 models/
 *.ipynb_checkpoints
+
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+.env/
+venv/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore model and dataset files (if applicable)
+models/
+datasets/
+checkpoints/
+*.pt
+*.ckpt
+*.h5
+
+# Ignore VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# Ignore large files generated during training
+output/
+*.bin
+*.onnx
+*.tflite
