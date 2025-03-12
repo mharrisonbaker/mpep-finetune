@@ -1,0 +1,9 @@
+{
+    "bos_token": "<s>",
+    "eos_token": "</s>",
+    "model_max_length": 2048,
+    "padding_side": "right",
+    "tokenizer_class": "LlamaTokenizer",
+    "trust_remote_code": true,
+    "use_fast": true
+}
