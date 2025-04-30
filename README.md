@@ -1,10 +1,10 @@
 # MPEP LLaMA Fine-Tuning
 
-This repository contains scripts and data for fine-tuning the LLaMA 3.1 8B model on legal texts from the **Manual of Patent Examining Procedure (MPEP)**.
+This repository contains scripts and data for fine-tuning the LLaMA 3.1 8B model on Multiple Choice Questions covering the **Manual of Patent Examining Procedure (MPEP)**.
 
 ## 🚀 Project Goals
-- Improve LLaMA's ability to answer patent law-related questions.
-- Train on structured **question-answer (QA) pairs** extracted from the MPEP.
+- Improve LLaMA's ability to answer patent law-related multiple choice questions.
+- Train on structured **question-answer (QA) pairs**.
 - Utilize **LoRA/QLoRA** to efficiently fine-tune on a GPU.
 
 ## 📂 Repository Structure
